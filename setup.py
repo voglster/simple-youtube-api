@@ -79,6 +79,8 @@ doc_reqs = [
 ]
 
 extra_reqs = {"doc": doc_reqs, "test": test_reqs}
+extra_reqs = dict()
+
 
 with open("README.rst", "r", "utf-8") as fh:
     long_description = fh.read()
